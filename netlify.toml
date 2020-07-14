@@ -4,3 +4,6 @@
 
 [context.deploy-preview]
   command = "jekyll build --drafts"
+  
+[[plugins]]
+package = "netlify-plugin-image-optim"
