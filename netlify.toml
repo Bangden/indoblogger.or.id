@@ -7,15 +7,3 @@
   
 [[plugins]]
 package = "netlify-plugin-image-optim"
-
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
-  [plugins.inputs]
-    minify = true
-    extract = false
-    [[plugins.inputs.dimensions]]
-      width = 414
-      height = 896
-    [[plugins.inputs.dimensions]]
-      width = 1920
-      height = 1080
